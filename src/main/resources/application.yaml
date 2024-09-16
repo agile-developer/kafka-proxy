@@ -1,3 +1,6 @@
 spring:
   application:
     name: kafka-proxy
+  threads:
+    virtual:
+      enabled: true
